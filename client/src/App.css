@@ -1,0 +1,190 @@
+html {
+  /* font-size: 62.5%; */
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+ 
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #2c3e50;
+  font-weight: 200;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.form {
+  text-align: center;
+}
+
+.task {
+  background-color: #34495e;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  margin: 6px auto;
+}
+
+.task span {
+  color: #FFFFFF;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  /* border: 20px solid red; */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #706882;
+  font-weight: 400;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+  /* border: 2px solid green; */
+}
+
+.todoview {
+  /* border: 2px solid red; */
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
+.nav-NavLink:hover {
+  color: black;
+  font-weight: 450;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.contentbox {
+  display: inline;
+  border: 2px solid red;
+}
+
+#otp {
+  width: 15%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-NavLink {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+
+
+/* ////footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  color: #7c7a7a;
+  text-align: center;
+}
+
+.footer p {
+  color:#6c6777;
+  font-size: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+  margin-left: 5rem;
+}
+.logo{
+ 
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+
+}
+.lasttag{
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.emaildiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emailinput{
+  width: 50%;
+}
