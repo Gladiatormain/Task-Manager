@@ -2,7 +2,7 @@ const express = require('express')
 const cookies = require('cookie-parser')
 const router = express.Router()
 const { addnewtodo, getAlltodos, toggleTodoDone, updateTodo, deleteTodo } = require('../controller/todocontroller')
-const { Register, Login, Logout, updateprofile,GetProfileDetails } = require('../controller/userController');
+const { Register, Login, Logout, updateprofile,GetProfileDetails } = require('../controller/usercontroller');
 const middleware = require('../middleware/middleware');
 const multer = require('multer')
 
